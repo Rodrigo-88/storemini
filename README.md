@@ -1,0 +1,2 @@
+# storemini
+Store mini site
