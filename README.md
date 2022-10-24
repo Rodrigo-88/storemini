@@ -1,2 +1,0 @@
-# storemini
-Store mini site

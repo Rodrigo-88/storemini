@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-font: rgb(31, 23, 23);
+  --background: rgb(255, 188, 2);
+  --nav-bar: rgb(0, 225, 255);
+}
+
+.container {
+  min-height: 100vh;
+  background-color: rgba(245, 245, 220, 0.437);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.contentLogo {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 188, 2);
+}
+
+.logo {
+  color: brown;
+  margin-left: 200px;
+  padding: 10px 0;
+  font-weight: bold;
+  display: flex;
+}
+
+#search{
+  margin-top: 8px;
+  margin-left: 50px;
+  width: 150px;
+  height: 22px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contentNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home {
+  display: flex;
+  gap: 50px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: rgb(36, 23, 23);
+  font-weight: bold;
+}
+
+.navLink:hover{
+  border-bottom: 3px solid rgba(255, 238, 0, 0.918);
+}
+
+.navBar {
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+
+#btn01:hover .navBar01{
+  display: block;
+}
+
+
+.navOpt{
+  padding: 5px 0;
+  width: 85px;
+  border: none;
+  background-color: transparent;
+  color: rgb(31, 23, 23);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navOpt:hover{
+  border-bottom: 3px solid rgba(255, 238, 0, 0.918);
+}
+
+.optInd:hover{
+  background-color: rgb(219, 219, 219);
+}
+
+.navBar .optInd{
+color:rgb(31, 23, 23);
+}
+
+.navBar01{
+  position: absolute;
+  display: none;
+  padding: 5px 5px;
+  width: 130px;
+  height: 140px;
+  background: rgb(206, 206, 206);
+  border: none;
+  color: rgb(36, 23, 23);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+#btn02:hover .navBar02{
+  display: block;
+}
+
+.navBar02{
+  position: absolute;
+  display: none;
+  padding: 5px 5px;
+  width: 130px;
+  height: 140px;
+  background: rgb(206, 206, 206);
+  border: none;
+  color: rgb(36, 23, 23);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#btn03:hover .navBar03{
+  display: block;
+}
+
+.navBar03{
+  position: absolute;
+  display: none;
+  padding: 5px 5px;
+  width: 130px;
+  height: 140px;
+  background: rgb(206, 206, 206);
+  border: none;
+  color: rgb(36, 23, 23);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navBar a{
+  text-decoration: none;
+}
+
+.optProd {
+  color: rgb(137, 137, 137);
+}
+
+.dinamicImg {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.carrosselImg {
+  width: 45%;
+  height: 300px;
+  background-color: rgb(43, 255, 255);
+}
+
+.carrosselImg01 {
+  width: 45%;
+  height: 300px;
+  background-color: rgb(56, 89, 89);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 9px;
+  padding-bottom: 20px;
+}
+
+.img00 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 200px;
+  height: 300px;
+  background-color: rgb(255, 242, 65);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.linkFooter {
+  margin-left: 30px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.production {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.direitos {
+  margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .contentLogo {
+    height: 130px;
+  }
+
+  .contentNav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navBar {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+}
